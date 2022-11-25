@@ -1,0 +1,217 @@
+    body {
+
+        font-family: 'Noto Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: fit-content;
+        display: block;
+
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: brown;
+    }
+
+    h2 {
+        color: rgb(185, 1, 176);
+        font-size: 30px;
+    }
+
+    .link-btn {
+        text-decoration: none;
+        background-image: linear-gradient(60deg, orange, red);
+        color: rgb(255, 255, 255) padding: 10px 25px;
+        border-radius: 25px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    .section-half {
+        width: 40%;
+        margin: 5%;
+    }
+
+    .masjid {
+        max-width: 100%;
+
+    }
+
+    /* nav section  */
+
+    nav {
+        background: rgba(255, 232, 216, 0.987);
+        align-items: center;
+    }
+
+    .nav-logo {
+        width: 40%;
+        padding: 0 0 0 5%;
+    }
+
+    .nav-link {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+
+    .nav-link a {
+        text-decoration: none;
+        color: rgb(88, 15, 15);
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .top {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .about {
+        width: 100%;
+        margin: 5%;
+        box-shadow: 5px 5px 20px rgb(28 26 26 / 30%);
+        border: 10px solid rgb(255, 255, 255);
+        border-radius: 12px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+
+    .donet1 {
+        text-align: center;
+    }
+
+    .donet-tk {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .tk {
+        padding: 25px;
+        background: rgba(231, 231, 231, 0.856);
+        border-radius: 5px;
+        font-weight: bold;
+        color: rgb(99, 98, 98)
+    }
+
+    .tk-pay {
+        padding: 25px;
+        background: rgba(245, 78, 78, 0.856);
+        border-radius: 5px;
+        font-weight: bold;
+        color: rgb(255, 255, 255)
+    }
+
+    .donet-input {
+        width: 650px;
+        border: 20px;
+        border-bottom: 5px solid gainsboro;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .btn {
+        background: tomato;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .donet-btn {
+        text-align: center;
+    }
+
+    .our-member {
+        text-align: center;
+    }
+
+    span {
+        color: blue;
+    }
+
+    .members-list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        margin: 100px;
+        text-align: center;
+        font-size: 80px;
+        font-style: oblique;
+        color: rgb(104, 86, 65);
+
+
+    }
+
+    .card img {
+        width: 500px;
+        height: 100%;
+        margin: 5px;
+        border-radius: 50px;
+    }
+
+    .join-with-us {
+        text-align: center;
+        background-color: khaki;
+        justify-content: space-between;
+    }
+
+    .input {
+        background-color: rgb(190, 194, 194);
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 30px;
+        margin-left: 20px;
+        font-size: 18px;
+
+    }
+
+    .btn2 {
+        color: white;
+        background-color: red;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    footer {
+        background-color: black;
+        color: azure;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    span3 {
+        color: yellow;
+    }
